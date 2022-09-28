@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "J2JfUt47lrVAyQdxUph3lhX/yuQ0rwPfbnou6fpFWrwi4UGUedQkp94IyaqXIk41a8GoJsrWhe1YM1GtWVgVjw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dorie\\Code\\astrea-mvciassignment-dorien\\mvc-assignment-dorien\\mvc-assignment-dorien.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dorie\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

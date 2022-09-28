@@ -1,0 +1,34 @@
+@model CustomerViewModel;
+
+@{
+  ViewData["Title"] = "Orders";
+}
+<h1>Orders</h1>
+<div class="row">
+  <h6 class="col-md-6">Name</h6>
+  <h6 class="col-md-6">Customer #</h6>
+  <p class="col-md-6">@Model.FullName</p>
+  <p class="col-md-6">@Model.CustomerNumber</p>
+</div>
+
+<table class="table table-striped table-bordered">
+  <thead>
+    <tr>
+      <th>Order Id</th>
+      <th>Order Date</th>
+      <th>Description</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var order in Model.Orders)
+    {
+      <tr>
+        <td>@order.Id</td>
+        <td>@order.OrderDate</td>
+        <td>@order.Description</td>
+        <td>@order.Total.ToString("c")</td>
+      </tr>
+    }
+  </tbody>
+</table>
